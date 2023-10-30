@@ -1,5 +1,3 @@
-
-/* Boton Menu Header */
 const boton = document.querySelector('#boton')
 const menu = document.querySelector('#menu')
 
@@ -8,10 +6,10 @@ boton.addEventListener('click', () => {
 	menu.classList.toggle('hidden')
 })
 
-//const boton = document.querySelector('#boton')
-const filters = document.querySelector('#filters')
+const botonf = document.querySelector('#botonf')
+const filter = document.querySelector('#filter')
 
-boton.addEventListener('click', () => {
+botonf.addEventListener('click', () => {
 	console.log('me diste clic')
-	filters.classList.toggle('hidden')
+	filter.classList.toggle('hidden')
 })
