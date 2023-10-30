@@ -53,7 +53,7 @@ var tarjetas = [
 		supply: 42,
 		precio: "0.002 BTC",
 		enlaceMarket: "https://www.rarestamp.xyz/stamp/A15164363985027985069",
-		enlaceCompra: "https://xchain.io/asset/A15164363985027985069",
+		enlaceCompra: "https://xchain.io/tx/2796ed152da895ac6c6f76460be9f614946d0d0a492dcadabc31e10558743014",
 		status: "Available",
 	},
 	{
@@ -77,17 +77,6 @@ var tarjetas = [
 		enlaceMarket: "https://www.rarestamp.xyz/stamp/A5557038772254904532",
 		enlaceCompra: "https://xchain.io/tx/75daca7ef7dd21c046dd708b244b385bb408a6cf74e30660dae3bb4dc27da405",
 		status: "Available",
-	},
-	{
-		coleccion: "Generation_1",
-		imagen: "/generation_1/07-special-generation_1.png",
-		nombre: "SCOFIELD THE PRISONER",
-		rareza: "SPECIAL",
-		supply: 5,
-		precio: "- BTC",
-		enlaceMarket: "https://www.rarestamp.xyz/stamp/A5557038772254904532",
-		enlaceCompra: "https://xchain.io/tx/75daca7ef7dd21c046dd708b244b385bb408a6cf74e30660dae3bb4dc27da405",
-		status: "Unavailable",
 	},
 	{
 		coleccion: "Generation_1",
