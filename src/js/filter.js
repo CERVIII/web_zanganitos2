@@ -1,62 +1,85 @@
 // Objetivo: Filtrar las tarjetas por rareza y colección
 document.addEventListener('DOMContentLoaded', function () {
-    var filtroRareza = document.getElementById('rareza');
-    var filtroRarezaCheckboxes = document.getElementById('filtro-rareza-checkboxes');
-    var filtrosRareza = document.querySelectorAll('.filtro-rareza');
+	var filtroRareza = document.getElementById('rareza');
+	var filtroRarezaCheckboxes = document.getElementById('filtro-rareza-checkboxes');
+	var filtrosRareza = document.querySelectorAll('.filtro-rareza');
 
-    var filtroColeccion = document.getElementById('coleccion');
-    var filtroColeccionCheckboxes = document.getElementById('filtro-coleccion-checkboxes');
-    var filtrosColeccion = document.querySelectorAll('.filtro-coleccion');
+	var filtroColeccion = document.getElementById('coleccion');
+	var filtroColeccionCheckboxes = document.getElementById('filtro-coleccion-checkboxes');
+	var filtrosColeccion = document.querySelectorAll('.filtro-coleccion');
 
-    filtroRareza.addEventListener('click', function () {
-        filtroRarezaCheckboxes.style.display = filtroRarezaCheckboxes.style.display === 'none' ? 'block' : 'none';
-    });
+	var filtroStatus = document.getElementById('status');
+	var filtroStatusCheckboxes = document.getElementById('filtro-status-checkboxes');
+	var filtrosStatus = document.querySelectorAll('.filtro-status');
 
-    filtrosRareza.forEach(function (filtro) {
-        filtro.addEventListener('change', function () {
-            filtrarTarjetas();
-        });
-    });
+	filtroRareza.addEventListener('click', function () {
+		filtroRarezaCheckboxes.style.display = filtroRarezaCheckboxes.style.display === 'none' ? 'block' : 'none';
+	});
 
-    filtroColeccion.addEventListener('click', function () {
-        filtroColeccionCheckboxes.style.display = filtroColeccionCheckboxes.style.display === 'none' ? 'block' : 'none';
-    });
+	filtrosRareza.forEach(function (filtro) {
+		filtro.addEventListener('change', function () {
+			filtrarTarjetas();
+		});
+	});
 
-    filtrosColeccion.forEach(function (filtro) {
-        filtro.addEventListener('change', function () {
-            filtrarTarjetas();
-        });
-    });
+	filtroColeccion.addEventListener('click', function () {
+		filtroColeccionCheckboxes.style.display = filtroColeccionCheckboxes.style.display === 'none' ? 'block' : 'none';
+	});
 
-    function filtrarTarjetas() {
-        var rarezasSeleccionadas = [];
-        var coleccionesSeleccionadas = [];
+	filtrosColeccion.forEach(function (filtro) {
+		filtro.addEventListener('change', function () {
+			filtrarTarjetas();
+		});
+	});
 
-        filtrosRareza.forEach(function (filtro) {
-            if (filtro.checked && filtro.value !== 'ALLRAREZA') {
-                rarezasSeleccionadas.push(filtro.value);
-            }
-        });
+	filtroStatus.addEventListener('click', function () {
+		filtroStatusCheckboxes.style.display = filtroStatusCheckboxes.style.display === 'none' ? 'block' : 'none';
+	});
 
-        filtrosColeccion.forEach(function (filtro) {
-            if (filtro.checked && filtro.value !== 'Allcoleccion') {
-                coleccionesSeleccionadas.push(filtro.value);
-            }
-        });
+	filtrosStatus.forEach(function (filtro) {
+		filtro.addEventListener('change', function () {
+			filtrarTarjetas();
+		});
+	});
 
-        var tarjetas = document.querySelectorAll('.tarjeta');
-        tarjetas.forEach(function (tarjeta) {
-            var rarezaTarjeta = tarjeta.getAttribute('data-rareza');
-            var coleccionTarjeta = tarjeta.getAttribute('data-coleccion');
+	function filtrarTarjetas() {
+		var rarezasSeleccionadas = [];
+		var coleccionesSeleccionadas = [];
+		var statusSeleccionadas = [];
 
-            var rarezaFiltro = rarezasSeleccionadas.length === 0 || rarezasSeleccionadas.includes(rarezaTarjeta);
-            var coleccionFiltro = coleccionesSeleccionadas.length === 0 || coleccionesSeleccionadas.includes(coleccionTarjeta);
+		filtrosRareza.forEach(function (filtro) {
+			if (filtro.checked && filtro.value !== 'ALLRAREZA') {
+				rarezasSeleccionadas.push(filtro.value);
+			}
+		});
 
-            if (rarezaFiltro && coleccionFiltro) {
-                tarjeta.style.display = 'block';
-            } else {
-                tarjeta.style.display = 'none';
-            }
-        });
-    }
+		filtrosColeccion.forEach(function (filtro) {
+			if (filtro.checked && filtro.value !== 'Allcoleccion') {
+				coleccionesSeleccionadas.push(filtro.value);
+			}
+		});
+
+		filtrosStatus.forEach(function (filtro) {
+			if (filtro.checked && filtro.value !== 'Allstatus') {
+				statusSeleccionadas.push(filtro.value);
+			}
+		});
+
+		var tarjetas = document.querySelectorAll('.tarjeta');
+		tarjetas.forEach(function (tarjeta) {
+			var rarezaTarjeta = tarjeta.getAttribute('data-rareza');
+			var coleccionTarjeta = tarjeta.getAttribute('data-coleccion');
+			var statusTarjeta = tarjeta.getAttribute('data-status');
+
+			var rarezaFiltro = rarezasSeleccionadas.length === 0 || rarezasSeleccionadas.includes(rarezaTarjeta);
+			var coleccionFiltro = coleccionesSeleccionadas.length === 0 || coleccionesSeleccionadas.includes(coleccionTarjeta);
+			var statusFiltro = statusSeleccionadas.length === 0 || statusSeleccionadas.includes(statusTarjeta);
+
+			if (rarezaFiltro && coleccionFiltro && statusFiltro) {
+				tarjeta.style.display = 'block';
+			} else {
+				tarjeta.style.display = 'none';
+			}
+		});
+	}
 });

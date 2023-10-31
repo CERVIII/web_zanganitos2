@@ -129,6 +129,28 @@
 						<option value="Generation_1">Generacion_1</option>
 					</select>
 				</div>
+				<div class="m-4 font-Orbitron text-yellow-400 text-2xl">
+					<label for="status">Status:</label>
+					<div id="filtro-status-checkboxes" style="display: none">
+						<div>
+							<input type="checkbox" id="allstatus" class="filtro-status" value="Allstatus">
+							<label for="allstatus">All</label>
+						</div>
+						<div>
+							<input type="checkbox" id="available" class="filtro-status" value="Available">
+							<label for="available">Available</label>
+						</div>
+						<div>
+							<input type="checkbox" id="unavailable" class="filtro-status" value="Unavailable">
+							<label for="unavailable">Unavailable</label>
+						</div>
+					</div>
+					<select id="status" class="filtro-coleccion hidden">
+						<option value="Allstatus">All</option>
+						<option value="Premium">Available</option>
+						<option value="Generation_1">Unavailable</option>
+					</select>
+				</div>
 			</div>
 		</div>
 		<div id="footer" class="self-end w-full bg-gradient-to-b from-black to-stone-800 ">

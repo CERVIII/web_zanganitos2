@@ -124,6 +124,7 @@ for (var coleccion in grupos) {
 			tarjeta.className = "mx-5 my-5 font-Orbitron text-center text-yellow-300 max-w-sm rounded-xl overflow-hidden shadow-lg shadow-yellow-300 tarjeta";
 			tarjeta.setAttribute('data-rareza', tarjetaInfo.rareza);
 			tarjeta.setAttribute('data-coleccion', tarjetaInfo.coleccion);
+			tarjeta.setAttribute('data-status', tarjetaInfo.status);
 
 			tarjeta.innerHTML = `
 				<img class="w-full" src="${tarjetaInfo.imagen}" alt="${tarjetaInfo.nombre}">
@@ -169,17 +170,3 @@ for (var coleccion in grupos) {
 	}
 }
 
-/* function filterCards(rareza) {
-	var tarjetas = document.getElementsByClassName('tarjeta');
-
-	for (var i = 0; i < tarjetas.length; i++) {
-		var tarjeta = tarjetas[i];
-		var rarezaTarjeta = tarjeta.dataset.rareza;
-
-		if (rareza === 'All' || rarezaTarjeta === rareza) {
-			tarjeta.style.display = 'block';
-		} else {
-			tarjeta.style.display = 'none';
-		}
-	}
-} */
