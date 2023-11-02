@@ -40,14 +40,14 @@
 							Collection
 						</a>
 						<a href="/src-20.html" class="block mt-4 lg:inline-block lg:mt-0 text-yellow-300 hover:text-white mr-4">
-						SRC-20
-					</a>
-					<a href="/proyects.html" class="block mt-4 lg:inline-block lg:mt-0 text-yellow-300 hover:text-white mr-4">
-					Proyects
+							SRC-20
+						</a>
+						<a href="/proyects.html" class="block mt-4 lg:inline-block lg:mt-0 text-yellow-300 hover:text-white mr-4">
+							Proyects
 						</a>
 						<a href="/about_us.html" class="block mt-4 lg:inline-block lg:mt-0 text-yellow-300 hover:text-white mr-4">
-						About us
-					</a>
+							About us
+						</a>
 					</div>
 				</div>
 			</nav>
@@ -59,97 +59,104 @@
 					<p>FILTER</p>
 				</button>
 			</div>
-			<div id="filter" class="flex flex-wrap justify-evenly px-10 hidden">
-				<div class="m-4 px-4 font-Orbitron text-yellow-400 text-2xl">
-					<label for="rareza">Rarity:</label>
-					<div id="filtro-rareza-checkboxes" style="display: none">
-						<div>
-							<input type="checkbox" id="allrareza" class="filtro-rareza" value="ALLRAREZA">
-							<label for="allrareza">All</label>
+			<div id="filter" class="flex flex-col px-10 hidden">
+				<div class="flex flex-wrap justify-evenly px-10">
+					<div class="m-4 px-4 font-Orbitron text-yellow-400 text-2xl">
+						<label for="rareza">Rarity:</label>
+						<div id="filtro-rareza-checkboxes" style="display: none">
+							<div>
+								<input type="checkbox" id="allrareza" class="filtro-rareza" value="ALLRAREZA">
+								<label for="allrareza">All</label>
+							</div>
+							<div>
+								<input type="checkbox" id="common" class="filtro-rareza" value="COMMON">
+								<label for="common">Common</label>
+							</div>
+							<div>
+								<input type="checkbox" id="uncommon" class="filtro-rareza" value="UNCOMMON">
+								<label for="uncommon">Uncommon</label>
+							</div>
+							<div>
+								<input type="checkbox" id="rare" class="filtro-rareza" value="RARE">
+								<label for="rare">Rare</label>
+							</div>
+							<div>
+								<input type="checkbox" id="epic" class="filtro-rareza" value="EPIC">
+								<label for="epic">Epic</label>
+							</div>
+							<div>
+								<input type="checkbox" id="legendary" class="filtro-rareza" value="LEGENDARY">
+								<label for="legendary">Legendary</label>
+							</div>
+							<div>
+								<input type="checkbox" id="mythic" class="filtro-rareza" value="MYTHIC">
+								<label for="mythic">Mythic</label>
+							</div>
+							<div>
+								<input type="checkbox" id="special" class="filtro-rareza" value="SPECIAL">
+								<label for="special">Special</label>
+							</div>
 						</div>
-						<div>
-							<input type="checkbox" id="common" class="filtro-rareza" value="COMMON">
-							<label for="common">Common</label>
-						</div>
-						<div>
-							<input type="checkbox" id="uncommon" class="filtro-rareza" value="UNCOMMON">
-							<label for="uncommon">Uncommon</label>
-						</div>
-						<div>
-							<input type="checkbox" id="rare" class="filtro-rareza" value="RARE">
-							<label for="rare">Rare</label>
-						</div>
-						<div>
-							<input type="checkbox" id="epic" class="filtro-rareza" value="EPIC">
-							<label for="epic">Epic</label>
-						</div>
-						<div>
-							<input type="checkbox" id="legendary" class="filtro-rareza" value="LEGENDARY">
-							<label for="legendary">Legendary</label>
-						</div>
-						<div>
-							<input type="checkbox" id="mythic" class="filtro-rareza" value="MYTHIC">
-							<label for="mythic">Mythic</label>
-						</div>
-						<div>
-							<input type="checkbox" id="special" class="filtro-rareza" value="SPECIAL">
-							<label for="special">Special</label>
-						</div>
+						<select id="rareza" class="filtro-rareza hidden">
+							<option value="ALLRAREZA">All</option>
+							<option value="COMMON">Common</option>
+							<option value="UNCOMMON">Uncommon</option>
+							<option value="RARE">Rare</option>
+							<option value="EPIC">Epic</option>
+							<option value="LEGENDARY">Legendary</option>
+							<option value="MYTHIC">Mythic</option>
+							<option value="SPECIAL">Special</option>
+						</select>
 					</div>
-					<select id="rareza" class="filtro-rareza hidden">
-						<option value="ALLRAREZA">All</option>
-						<option value="COMMON">Common</option>
-						<option value="UNCOMMON">Uncommon</option>
-						<option value="RARE">Rare</option>
-						<option value="EPIC">Epic</option>
-						<option value="LEGENDARY">Legendary</option>
-						<option value="MYTHIC">Mythic</option>
-						<option value="SPECIAL">Special</option>
-					</select>
+					<div class="m-4 font-Orbitron text-yellow-400 text-2xl">
+						<label for="coleccion">Collection:</label>
+						<div id="filtro-coleccion-checkboxes" style="display: none">
+							<div>
+								<input type="checkbox" id="allcoleccion" class="filtro-coleccion" value="Allcoleccion">
+								<label for="allcoleccion">All</label>
+							</div>
+							<div>
+								<input type="checkbox" id="premium" class="filtro-coleccion" value="Premium">
+								<label for="premium">Premium</label>
+							</div>
+							<div>
+								<input type="checkbox" id="generacion_1" class="filtro-coleccion" value="Generation_1">
+								<label for="generacion_1">Generacion_1</label>
+							</div>
+						</div>
+						<select id="coleccion" class="filtro-coleccion hidden">
+							<option value="Allcoleccion">All</option>
+							<option value="Premium">Premium</option>
+							<option value="Generation_1">Generacion_1</option>
+						</select>
+					</div>
+					<div class="m-4 font-Orbitron text-yellow-400 text-2xl">
+						<label for="status">Status:</label>
+						<div id="filtro-status-checkboxes" style="display: none">
+							<div>
+								<input type="checkbox" id="allstatus" class="filtro-status" value="Allstatus">
+								<label for="allstatus">All</label>
+							</div>
+							<div>
+								<input type="checkbox" id="available" class="filtro-status" value="Available">
+								<label for="available">Available</label>
+							</div>
+							<div>
+								<input type="checkbox" id="unavailable" class="filtro-status" value="Unavailable">
+								<label for="unavailable">Unavailable</label>
+							</div>
+						</div>
+						<select id="status" class="filtro-coleccion hidden">
+							<option value="Allstatus">All</option>
+							<option value="Premium">Available</option>
+							<option value="Generation_1">Unavailable</option>
+						</select>
+					</div>
 				</div>
-				<div class="m-4 font-Orbitron text-yellow-400 text-2xl">
-					<label for="coleccion">Collection:</label>
-					<div id="filtro-coleccion-checkboxes" style="display: none">
-						<div>
-							<input type="checkbox" id="allcoleccion" class="filtro-coleccion" value="Allcoleccion">
-							<label for="allcoleccion">All</label>
-						</div>
-						<div>
-							<input type="checkbox" id="premium" class="filtro-coleccion" value="Premium">
-							<label for="premium">Premium</label>
-						</div>
-						<div>
-							<input type="checkbox" id="generacion_1" class="filtro-coleccion" value="Generation_1">
-							<label for="generacion_1">Generacion_1</label>
-						</div>
-					</div>
-					<select id="coleccion" class="filtro-coleccion hidden">
-						<option value="Allcoleccion">All</option>
-						<option value="Premium">Premium</option>
-						<option value="Generation_1">Generacion_1</option>
-					</select>
-				</div>
-				<div class="m-4 font-Orbitron text-yellow-400 text-2xl">
-					<label for="status">Status:</label>
-					<div id="filtro-status-checkboxes" style="display: none">
-						<div>
-							<input type="checkbox" id="allstatus" class="filtro-status" value="Allstatus">
-							<label for="allstatus">All</label>
-						</div>
-						<div>
-							<input type="checkbox" id="available" class="filtro-status" value="Available">
-							<label for="available">Available</label>
-						</div>
-						<div>
-							<input type="checkbox" id="unavailable" class="filtro-status" value="Unavailable">
-							<label for="unavailable">Unavailable</label>
-						</div>
-					</div>
-					<select id="status" class="filtro-coleccion hidden">
-						<option value="Allstatus">All</option>
-						<option value="Premium">Available</option>
-						<option value="Generation_1">Unavailable</option>
-					</select>
+				<div class="text-center">
+					<button class="font-Orbitron border-2 border-yellow-400 w-28 hover:bg-yellow-400 text-yellow-400 hover:text-black font-bold text-center rounded-lg p-2 m-3" id="resetButton">
+						<p>Reset</p>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -188,4 +195,5 @@
 <script src="/index.81b9ee3d.js"></script>
 <script src="/collection.973ad969.js"></script>
 <script src="/collection.a7103602.js"></script>
+
 </html>

@@ -10,7 +10,7 @@
 56/home/cerviii/Documentos/web_zanganitos2/src/src-20.html1698660449286730792 0
 58/home/cerviii/Documentos/web_zanganitos2/src/proyects.html1698660449286730792 0
 62/home/cerviii/Documentos/web_zanganitos2/.vscode/settings.json1698660447846743347 0
-72/home/cerviii/Documentos/web_zanganitos2/dist/collection.a7103602.js.map1698682479322181744 0
+72/home/cerviii/Documentos/web_zanganitos2/dist/collection.a7103602.js.map1698712740759991471 0
 77/home/cerviii/Documentos/web_zanganitos2/dist/web_zanganitos2.59712999.js.map1698682479322181744 0
 68/home/cerviii/Documentos/web_zanganitos2/dist/src-20.9f409d18.js.map1698682479322181744 0
 68/home/cerviii/Documentos/web_zanganitos2/dist/index.61d3354a.css.map1698682479322181744 0
@@ -604,7 +604,7 @@
 104/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/_/_await_async_generator/package.json1698660448954733686 0
 95/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/_/_to_primitive/package.json1698660448954733686 0
 82/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/_/_to_primitive1698660448954733686 1
-72/home/cerviii/Documentos/web_zanganitos2/dist/collection.973ad969.js.map1698682479322181744 0
+72/home/cerviii/Documentos/web_zanganitos2/dist/collection.973ad969.js.map1698712740767991408 0
 73/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/_/_get1698660448954733686 1
 85/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/cjs/_construct.cjs1698660448954733686 0
 87/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/_/_iterable_to_array1698660448954733686 1
@@ -1374,7 +1374,7 @@
 108/home/cerviii/Documentos/web_zanganitos2/node_modules/webpack/schemas/plugins/HashedModuleIdsPlugin.check.js1698660449278730862 0
 82/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/esm/_type_of.js1698660448958733650 0
 96/home/cerviii/Documentos/web_zanganitos2/node_modules/webpack/schemas/plugins/DllPlugin.check.js1698660449278730862 0
-45/home/cerviii/Documentos/web_zanganitos2/dist1698682479326181727 1
+45/home/cerviii/Documentos/web_zanganitos2/dist1698712740771991377 1
 102/home/cerviii/Documentos/web_zanganitos2/node_modules/webpack/schemas/plugins/sharing/SharePlugin.json1698660449278730862 0
 110/home/cerviii/Documentos/web_zanganitos2/node_modules/webpack/schemas/plugins/sharing/ConsumeSharedPlugin.json1698660449278730862 0
 106/home/cerviii/Documentos/web_zanganitos2/node_modules/webpack/schemas/plugins/sharing/SharePlugin.check.js1698660449278730862 0
@@ -1520,7 +1520,7 @@
 44/home/cerviii/Documentos/web_zanganitos2/src1698660753724129120 1
 90/home/cerviii/Documentos/web_zanganitos2/node_modules/acorn-import-assertions/package.json1698660448990733372 0
 70/home/cerviii/Documentos/web_zanganitos2/node_modules/fastq/example.js1698660449070732674 0
-68/home/cerviii/Documentos/web_zanganitos2/dist/collection.a7103602.js1698682479322181744 0
+68/home/cerviii/Documentos/web_zanganitos2/dist/collection.a7103602.js1698712740755991503 0
 102/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/core-linux-x64-musl/swc.linux-x64-musl.node1698660448950733721 0
 67/home/cerviii/Documentos/web_zanganitos2/node_modules/fastq/.github1698660449070732674 1
 70/home/cerviii/Documentos/web_zanganitos2/node_modules/fastq/index.d.ts1698660449070732674 0
@@ -2400,7 +2400,7 @@
 60/home/cerviii/Documentos/web_zanganitos2/node_modules/@alloc1698660447846743347 1
 77/home/cerviii/Documentos/web_zanganitos2/node_modules/normalize-path/index.js1698660449186731664 0
 68/home/cerviii/Documentos/web_zanganitos2/node_modules/normalize-path1698660449186731664 1
-57/home/cerviii/Documentos/web_zanganitos2/src/js/filter.js1698681331215532981 0
+57/home/cerviii/Documentos/web_zanganitos2/src/js/filter.js1698694696519157436 0
 74/home/cerviii/Documentos/web_zanganitos2/node_modules/buffer-from/index.js1698660449002733267 0
 66/home/cerviii/Documentos/web_zanganitos2/node_modules/once/once.js1698660449186731664 0
 71/home/cerviii/Documentos/web_zanganitos2/node_modules/once/package.json1698660449186731664 0
@@ -3455,7 +3455,7 @@
 107/home/cerviii/Documentos/web_zanganitos2/node_modules/@webassemblyjs/ast/scripts/generateTypeDefinitions.js1698660448978733477 0
 109/home/cerviii/Documentos/web_zanganitos2/node_modules/csso/node_modules/css-tree/cjs/lexer/prepare-tokens.cjs1698660449050732849 0
 88/home/cerviii/Documentos/web_zanganitos2/node_modules/@webassemblyjs/ast/scripts/util.js1698660448978733477 0
-61/home/cerviii/Documentos/web_zanganitos2/dist/collection.html1698682479318181763 0
+61/home/cerviii/Documentos/web_zanganitos2/dist/collection.html1698712740771991377 0
 94/home/cerviii/Documentos/web_zanganitos2/node_modules/css-select/node_modules/domutils/lib/esm1698660449034732989 1
 72/home/cerviii/Documentos/web_zanganitos2/node_modules/@webassemblyjs/ast1698660448978733477 1
 85/home/cerviii/Documentos/web_zanganitos2/node_modules/caniuse-lite/data/regions/MD.js1698660449022733093 0
@@ -4614,7 +4614,7 @@
 98/home/cerviii/Documentos/web_zanganitos2/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib1698660447910742789 1
 88/home/cerviii/Documentos/web_zanganitos2/node_modules/@swc/helpers/cjs/_create_class.cjs1698660448954733686 0
 78/home/cerviii/Documentos/web_zanganitos2/node_modules/fast-deep-equal/react.js1698660449070732674 0
-57/home/cerviii/Documentos/web_zanganitos2/src/js/target.js1698681387111252232 0
+57/home/cerviii/Documentos/web_zanganitos2/src/js/target.js1698694713891028325 0
 77/home/cerviii/Documentos/web_zanganitos2/node_modules/csso/lib/replace/atrule1698660449046732884 1
 90/home/cerviii/Documentos/web_zanganitos2/node_modules/caniuse-lite/data/features/hidden.js1698660449010733198 0
 87/home/cerviii/Documentos/web_zanganitos2/node_modules/chokidar/node_modules/glob-parent1698660449026733058 1
@@ -4683,7 +4683,7 @@
 87/home/cerviii/Documentos/web_zanganitos2/node_modules/sucrase/dist/Options-gen-types.js1698660449206731489 0
 93/home/cerviii/Documentos/web_zanganitos2/node_modules/css-tree/cjs/syntax/node/WhiteSpace.cjs1698660449038732954 0
 78/home/cerviii/Documentos/web_zanganitos2/node_modules/csso/lib/clean/Atrule.js1698660449046732884 0
-60/home/cerviii/Documentos/web_zanganitos2/src/collection.html1698682479206182263 0
+60/home/cerviii/Documentos/web_zanganitos2/src/collection.html1698694603091865439 0
 89/home/cerviii/Documentos/web_zanganitos2/node_modules/loader-utils/lib/interpolateName.js1698660449170731802 0
 81/home/cerviii/Documentos/web_zanganitos2/node_modules/entities/lib/encode-trie.js1698660449062732745 0
 76/home/cerviii/Documentos/web_zanganitos2/node_modules/css-tree/cjs/generator1698660449038732954 1
@@ -9219,7 +9219,7 @@
 95/home/cerviii/Documentos/web_zanganitos2/node_modules/@webassemblyjs/helper-buffer/package.json1698660448978733477 0
 91/home/cerviii/Documentos/web_zanganitos2/node_modules/lightningcss-linux-x64-musl/README.md1698660449126732186 0
 117/home/cerviii/Documentos/web_zanganitos2/node_modules/@parcel/package-manager/test/fixtures/packages/foo-2.0/index.js1698660447918742718 0
-68/home/cerviii/Documentos/web_zanganitos2/dist/collection.973ad969.js1698682479322181744 0
+68/home/cerviii/Documentos/web_zanganitos2/dist/collection.973ad969.js1698712740767991408 0
 115/home/cerviii/Documentos/web_zanganitos2/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed1698660447918742718 1
 97/home/cerviii/Documentos/web_zanganitos2/node_modules/css-tree/lib/syntax/node/DeclarationList.js1698660449042732918 0
 128/home/cerviii/Documentos/web_zanganitos2/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed/package.json1698660447918742718 0
