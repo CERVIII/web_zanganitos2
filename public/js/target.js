@@ -3,7 +3,7 @@
 var tarjetas = [
 	{
 		coleccion: "Premium",
-		imagen: "/generation_1/00-pemium-first.png",
+		imagen: "./imggeneration1/00-pemium-first.png",
 		nombre: "BOB THE MAYOR",
 		rareza: "SPECIAL",
 		supply: 42,
@@ -14,7 +14,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/01-common-generation_1.png",
+		imagen: "../img/generation1/01-common-generation_1.png",
 		nombre: "BAILEY THE FISHERMAN",
 		rareza: "COMMON",
 		supply: 250,
@@ -25,7 +25,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/02-uncommon-generation_1.png",
+		imagen: "../img/generation1/02-uncommon-generation_1.png",
 		nombre: "COOPER THE BAKER",
 		rareza: "UNCOMMON",
 		supply: 250,
@@ -36,7 +36,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/03-rare-generation_1.png",
+		imagen: "../img/generation1/03-rare-generation_1.png",
 		nombre: "SPENCER THE HUNTER",
 		rareza: "RARE",
 		supply: 100,
@@ -47,7 +47,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/04-epic-generation_1.png",
+		imagen: "../img/generation1/04-epic-generation_1.png",
 		nombre: "MORGAN THE ARCHER",
 		rareza: "EPIC",
 		supply: 42,
@@ -58,7 +58,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/05-legendary-generation_1.png",
+		imagen: "../img/generation1/05-legendary-generation_1.png",
 		nombre: "PARKER THE SAWYER",
 		rareza: "LEGENDARY",
 		supply: 21,
@@ -69,7 +69,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/06-mythic-generation_1.png",
+		imagen: "../img/generation1/06-mythic-generation_1.png",
 		nombre: "JORDAN THE PILOT",
 		rareza: "MYTHIC",
 		supply: 10,
@@ -80,7 +80,7 @@ var tarjetas = [
 	},
 	{
 		coleccion: "Generation_1",
-		imagen: "/generation_1/07-special-generation_1.png",
+		imagen: "../img/generation1/07-special-generation_1.png",
 		nombre: "SCOFIELD THE PRISONER",
 		rareza: "SPECIAL",
 		supply: 5,
